@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>CosteSoft</title>
+</head>
+<body>
+    <div>
+         <header>
+            <h1>Sistema Gestor de cotización Software</h1>
+            <!-- <h2>Maximino Rentería Moreno</h2> -->
+         </header>
+         <main>
+             <form class="horas">
+                <!-- <label class="m1" for="Get name">Costo de la hora en Pesos</label> -->
+                <label for="Get name">Costo de la hora en:</label>
+                <select class="m2" name="select"id="select">
+                    <option value="value1">Dinero en Pesos</option>
+                    <!-- <option value="value2" selected>Dinero en Dolar</option>
+                    <option value="value3">Dinero en Euro</option> -->
+                  </select>
+                 <input class="m2" type="number" placeholder="Costo de la hora" id="Chora">
+    
+             </form>
+             <form class="equipos">
+                <label for="Get name">Costos no humanos, servidores, Internet, etc.</label>
+                 <input class="eqv" type="number" placeholder="Ingrese el costo en Equipos y varios"id="Cqpos">
+             </form>
+             <form class="ManObra">
+                <label for="Get name">Horas "Mano de Obra".</label>
+                <input class="mO" type="number" placeholder="Ingrese las horas de trabajo"id="Cmobra">
+             </form>   
+             <form class="Otros">
+                <label for="Get name">Costos por Impuestos u otros".</label>
+                <input class="oT" type="number" placeholder="Ingrese Impuesto u otros"id="OtrosG">
+             </form>
+             <form class="Resulta">
+                <label for="Get name">El valor total del Software es:</label>
+                <input class="r1" type="text"id="Vtotal"readonly onmousedown="return false;">
+                
+                <!-- <input class="r2" type="number" placeholder="Con equivalencia a (Moneda1 y Moneda2) Tanto"> -->
+                <label for="Get name">Valor de 20% en Ganacias:</label>
+                <input class="r3" type="text" id="ganancia"readonly onmousedown="return false;">
+                <label for="Get name">Valor minimo a Negociar 10%</label>
+                <input class="r4" type="text" id="descuento"readonly onmousedown="return false;">
+                
+             </form>
+             <form class="Rboton">
+                <input class="boton" type="button" value="Cálcular Valor del Sistema" onclick="opere()">
+                <script src="costo.js"></script>
+             </form>
+         </main>
+        <footer>
+            © 2021-SuperMax, Derechos reservados Maximino Renteria Moreno
+        </footer>
+    </div>
+    
+
+</body>
+</html>
