@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+    <title>Juego de Preguntas</title>
+</head>
+<body> 
+  <style>
+      body {
+    background: cadetblue;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: calibri;
+    font-size: 120%;
+  } 
+  .contenedor {
+    width: 48vw;
+    height: 70vh;
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed white; 
+    margin-top:09%;
+  }
+  .btn {
+    background: white;
+    width: 80%;
+    max-width: 550px;
+    padding: 7px;
+    margin: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .btn:hover {
+    transform: scale(1.05);
+    background-color: sandybrown;
+    cursor: pointer;
+  }
+ * {
+    transition: all 0.3s;
+  } 
+  
+  .encabezado {
+    position: relative;
+    background:transparent;
+    min-width: 500px;
+    width: 70%;
+    max-width: 600px;
+    padding: 5px;
+  }
+
+  .categoria {
+    opacity: 0.3;
+    text-align: left;
+    
+    margin-top: -10%;
+  }
+
+  .pregunta {
+    padding: 5px;
+  }
+
+  .imagen {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    background-color: slategray;
+    border-radius: 10% / 50%;
+  }
+
+ 
+  .numero{
+    position: absolute;
+    opacity:0.3;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .puntaje{
+    padding:10px;
+    color:white;
+  } 
+/* --------------------------------------------------------- */
+header>img{
+  width: 100px;
+  height:80;
+  background-color: transparent;
+  margin-left: 450px;
+  margin-top: -200px;
+}
+h1{
+  margin-top: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: 30px;
+}
+.animp
+{
+  /* width: 250px; */
+   margin-top: -70px; 
+   margin-left: 50px;
+  
+}
+.reto
+{
+ /*  margin-top: -100px; */
+ /* margin-left: 165%; */
+}
+.typed
+{
+  text-align: justify;
+  width: 800px;
+  margin-top: 3%;
+}
+span > img{
+  width: 550px;
+  height: 300px;
+  border: 2px solid; 
+  margin-top: 6%; 
+}
+
+.middle{
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 250px;
+}
+.btnM{
+  position: relative;
+  display: block;
+  color: #34151B;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "montserrat";
+  text-decoration: overline;
+  margin: 30px 0;
+  /* border: 2px solid #3D7105;
+*/    padding: 14px 60px;
+  text-transform: uppercase;
+  /* overflow: hidden; */
+  transition: 1s all ease;
+}
+.btnM::before{
+  background:tan;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.btn_1::before{
+  width: 0%;
+  height: 100%;
+}
+
+.btn_1:hover::before{
+  width: 100%;
+}
+.header-f
+{
+  /* background-color:springgreen; */
+  top:0;
+  position: fixed;
+  width: 100%;
+  /* border: 1px solid; */
+}
+footer{
+  margin-top:4%;
+}
+section
+{
+ /*  background-color: steelblue; */
+  display:inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ /*  margin-left: -40%;
+  margin-bottom:50%; */
+
+}
+
+aside > img{
+  width: 110px;
+  height: 100px;
+  margin-bottom: 3%;
+  margin-left: 30%;
+  margin-right: 28%;
+ /*  justify-content: center;
+  align-items: center;
+  display: inline-flex; */
+}
+aside > input{
+  background: white;
+    width: 60%;
+    max-width: 450px;
+    padding: 3px;
+    /* margin: 2px; */
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2%;
+}
+.botonf
+{
+  /* color:red;
+  margin-left: 10%; */
+  padding: 7px;
+  width: 40%;
+}
+.resume{
+  /* border: 3px solid; */
+  text-align: center;
+  width: 70%;
+  margin-left: 30%;
+  margin-right: 28%;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.nombre
+{
+  text-transform: uppercase;
+}
+  </style>
+    <div class="central">
+      <header class="header-f">
+      <h1>Chocolandia|Quiz</h1>
+      
+              <img class="imaten" src="img/ima.png">
+              <div id="other" class="animp">
+                <span id="l_text" class="typed"></span>
+              </div>
+            </header>
+           
+      <div id="content" class="contenedor">
+      
+          <span><img id="imacentral" src="img/foteM.jpeg"></span>
+          <div id="l_reto" class="reto">
+            <h3 id="resolv">¿Puedes Resolver mi Cuestionario?</h3>
+          
+            <div class="middle">
+              <a id="oton" href="#" class="btnM btn_1">Acepto el reto</a>
+           </div>   
+          </div> 
+          <section id="prego">
+            <div class="puntaje" id="puntaje">
+            </div>
+            
+                 <div id="ecabeza" class="encabezado">
+                  
+                  <div class="numero" id="numero">
+                  </div>
+                     <div class="categoria" id="categoria">
+                       Categoría
+                     </div>
+                     <div class="pregunta" id="pregunta">
+                      Pregunta
+                    </div>
+                    <img src="#" class="imagen" id="imagen">
+                   
+                 </div>
+                 
+            <div class="btn" id="btn1" onclick="oprimir_btn(0)">
+              Opción 1
+            </div>
+            <div class="btn" id="btn2" onclick="oprimir_btn(1)">
+              Opción 2
+            </div>
+            <div class="btn" id="btn3" onclick="oprimir_btn(2)">
+              Opción 3
+            </div>
+            <div class="btn" id="btn4" onclick="oprimir_btn(3)">
+              Opción 4
+            </div>
+          </section>  
+          <aside id="resume">
+            <label class="resume">Resume</label>
+            <img src="img/user.png">
+             <input type="text" value="Nombre:" class="nombre" id="n_user"readonly onmousedown="return false;">
+             <input type="text" value="Correcta:" id="rcorrecto"readonly onmousedown="return false;">
+             
+             <input type="text" value="Porcentaje:" id="r_porcentaje"readonly onmousedown="return false;">
+             <input type="text" value="Mensaje:" id="r_mensaje"readonly onmousedown="return false;">
+             <input class="botonf" type="button" value="Return:🏡"id="r_vuele" onclick="recargapage()">
+            
+          </aside>    
+        </div>
+     
+         
+      </div>
+      <footer id="fo">
+        <i>© 2021 Maximino Rentería Moreno - Río Software <span>SuperMax</span></i>
+      </footer>
+    </div>
+    <script src = "https://cdn.jsdelivr.net/npm/typed.js@2.0.12"> </script>
+    <script src="index.js"></script>
+</body>
+</html>

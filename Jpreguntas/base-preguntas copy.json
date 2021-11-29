@@ -1,0 +1,33 @@
+[
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿Cual No es un lugar turistico del Chocó?",
+        "respuesta": "🚣‍♂️Juanchaco",
+        "incorrecta1":"🚣‍♂️sapzurro A.",
+        "incorrecta2":"🚣‍♂️Guachalito",
+        "incorrecta3":"🚣‍♂️Capurganá\r",
+        
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿Cual es la Temperatura Promedio?",
+        "respuesta": "☁27°C",
+        "incorrecta1": "☁24°C",
+        "incorrecta2": "☁20°C",
+        "incorrecta3": "☁16°C\r",
+      
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿Donde desemboca el rio Atrato?",
+        "respuesta": "🌊Mar Caribe",
+        "incorrecta1": "🌊Mar Arabico",
+        "incorrecta2": "🌊Mediterraneo",
+        "incorrecta3": "🌊Mar muerto\r",
+        
+        "objectFit": "cover"
+    }
+]
