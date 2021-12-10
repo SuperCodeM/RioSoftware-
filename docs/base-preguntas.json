@@ -1,0 +1,123 @@
+[
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿Qué es el Chocó?",
+        "respuesta": "🗺Departamento",
+        "incorrecta1":"🍲Una comida",
+        "incorrecta2":"🎉Es Una fiesta",
+        "incorrecta3":"🍐Es Una fruta\r",
+        "imagen": "https://media-cdn.tripadvisor.com/media/photo-m/1280/18/eb/a1/84/photo0jpg.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿Cual es el Gentilicio del Chocó?",
+        "respuesta": "🧔Chocoano",
+        "incorrecta1": "🧔Chocuense",
+        "incorrecta2": "🧔chocuaseño",
+        "incorrecta3": "🧔Chocolate\r",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Afro_Colombianos_by_Alejandra_Quintero_Sinisterra.png/220px-Afro_Colombianos_by_Alejandra_Quintero_Sinisterra.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta":"¿Cuales son los colores de la bandera del Chocó?",
+          "respuesta":"💚💛💙Verde, amarillo, azúl",
+        "incorrecta1":"🧡💚💙Naranja, verde azúl ",
+        "incorrecta2":"💛💚💙Amarillo, verde, azúl ",
+        "incorrecta3":"💙💚💛Azul, verde, amarillo\r",
+        "imagen": "https://i0.wp.com/ley.exam-10.com/pars_docs/refs/10/9807/9807_html_7f96a1f1.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿Cual es la capital del chocó?",
+          "respuesta": "🌆Quibdó",
+        "incorrecta1":"🌆Itsmina",
+        "incorrecta2":"🌆Condóto",
+        "incorrecta3":"🌆 Acandí\r",
+        "imagen": "https://blogger.googleusercontent.com/img/a/AVvXsEj_dCve_EbI1pBQGSTBn0dRc0Z_q3PIVknVFeiPULlnFtmVExZ0Foie_oTeIqENkqTzJZDgNrJ7lZvFdeApWpc11hU9oxukeTcORjyTvXmHM47CtQdqDW6NXYL-US1wqdqVpYx28phgMutSJIJ6y7ZIP-a3A9jgfjVZ_wVMKQFDjwaAXcEL8Kinrkq3Dw=w585-h423",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿Cuales son los 3 rios principales del Chocó?",
+        "respuesta": "🌊 Atrato, San juan, Baudó",
+        "incorrecta1":"🌊 Atrato, Bebará, San juan",
+        "incorrecta2":"🌊S juan, Baudó, Munguidó",
+        "incorrecta3":"🌊Atrato, Bojayá, Andagda\r",
+        "imagen": "https://convergenciacnoa.org/wp-content/uploads/2019/04/IMG_7706.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿El chocó es el unico departamento de colombia que tiene costa en?",
+        "respuesta": "🌊🗺🌊Óceano Pacifico y Atlantico",
+        "incorrecta1":"🌊🗺🌊Óceano Atlantico y Artico",
+        "incorrecta2":"🌊🗺🌊 Óceano Antartico y Pacifico",
+        "incorrecta3":"🌊🗺🌊Óceano Atlantico e Indico\r",
+        "imagen": "https://encolombia.com/wp-content/uploads/2012/12/Departamento-del-Choco-696x398.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿Cual es la actividad economica más importante en el chocó?",
+        "respuesta": "🌟La minería",
+        "incorrecta1":"👩‍🌾Agricultura",
+        "incorrecta2":"🐟🐟La Pesca",
+        "incorrecta3":"🌳Deforestación\r",
+        "imagen": "https://s3.amazonaws.com/elcomun/imagenes/1621373681_1.JPG",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿En qué año se creó, como departamento el Chocó?",
+        "respuesta": "👴1947",
+        "incorrecta1":"👴1946",
+        "incorrecta2":"👴1944",
+        "incorrecta3":"👴1950\r",
+        "imagen": "https://www.todacolombia.com/imagenes/departamentos-de-colombia/Choco/Choco_departamento_1366x768.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿Con qué pais limita el chocó al norte?",
+        "respuesta": "🗺Panamá",
+        "incorrecta1": "🗺Bolivia",
+        "incorrecta2": "🗺Ecuador",
+        "incorrecta3": "🗺Paraguay\r",
+        "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Choco_in_Colombia_%28mainland%29.svg/250px-Choco_in_Colombia_%28mainland%29.svg.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿Cual No es, un lugar turistico del Chocó?",
+        "respuesta": "🚣‍♂️Juanchaco",
+        "incorrecta1":"🚣‍♂️sapzurro A.",
+        "incorrecta2":"🚣‍♂️Guachalito",
+        "incorrecta3":"🚣‍♂️Capurganá\r",
+        "imagen": "https://elturismoencolombia.com/wp-content/uploads/2018/10/nuqui_colombia_turismo_choco_travel.jpg",
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿Cual es la Temperatura Promedio en el chocó?",
+        "respuesta": "☁27°C",
+        "incorrecta1": "☁24°C",
+        "incorrecta2": "☁20°C",
+        "incorrecta3": "☁16°C\r",
+        "imagen":"https://rosyramales.com/wp-content/uploads/2020/12/clima.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Chocó-Colombia",
+        "pregunta": "¿Donde desemboca el rio Atrato?",
+        "respuesta": "🌊Mar Caribe",
+        "incorrecta1": "🌊Mar Arabico",
+        "incorrecta2": "🌊Mediterraneo",
+        "incorrecta3": "🌊Mar muerto\r",
+        "imagen": "https://cdn.colombia.com/sdi/2021/05/19/viajar-quibdo-choco-atractivos-919099.jpg",
+        "objectFit": "cover"
+    }
+]

@@ -64,6 +64,7 @@
   .contenedor 
   {
     width: 48vw;
+    
     display:inline-flex;
     flex-direction: column;
     justify-content: center;

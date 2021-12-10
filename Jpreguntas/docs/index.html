@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Juego de Preguntas</title>
+</head>
+<body> 
+    <div class="central">
+      <header class="header-f">
+      <h1>Chocolandia|Quiz</h1>
+              <img class="imaten" src="1.png" alt = "Icono, circulo y lapiz parte superior">
+              <div id="other" class="animp">
+                <span id="l_text" class="typed"></span>
+              </div>
+      </header>
+      <div id="content" class="contenedor">
+          <span><img id="imacentral" src="2.jpeg" alt = "Imagen Malecón de Quibdó, a orillas del río Atrato"></span>
+          <div id="l_reto" class="reto">
+            <h3 id="resolv">¿Puedes Resolver mi Cuestionario?</h3>
+          
+            <div class="middle">
+              <a id="begin" href="#" class="btnM btn_1">acepto el reto</a>
+           </div>   
+          </div> 
+          <div id="prego" class="prego">
+            <div class="puntaje" id="puntaje">
+            </div>
+            
+                 <div id="ecabeza" class="encabezado">
+                  
+                  <div class="numero" id="numero">
+                  </div>
+                     <div class="categoria" id="categoria">
+                       Categoría
+                     </div>
+                     <div class="pregunta" id="pregunta">
+                      Pregunta
+                    </div>
+                    <img src="#" class="imagen" id="imagen" alt = "Imagen de la pregunta, actual">
+                   
+                 </div>
+                 
+            <div class="btn" id="btn1" onclick="oprimir_btn(0)">
+              Opción 1
+            </div>
+            <div class="btn" id="btn2" onclick="oprimir_btn(1)">
+              Opción 2
+            </div>
+            <div class="btn" id="btn3" onclick="oprimir_btn(2)">
+              Opción 3
+            </div>
+            <div class="btn" id="btn4" onclick="oprimir_btn(3)">
+              Opción 4
+            </div>
+          </div>  
+          <aside id="resume">
+            <label class="resume">Resume</label>
+            <img src="3.png" alt = "Icono de usuario">
+             <input type="text" value="Nombre:" class="nombre" id="n_user" readonly onmousedown="return false;">
+             <input type="text" value="Correcta:" id="rcorrecto" readonly onmousedown="return false;">
+             <input type="text" value="Porcentaje:" id="r_porcentaje" readonly onmousedown="return false;">
+             <input type="text" value="Mensaje:" id="r_mensaje" readonly onmousedown="return false;">
+             <input class="botonf" type="button" value="Return:🏡" id="r_vuele" onclick="recargapage()">    
+          </aside>    
+        </div>
+      <footer id="fo">
+        <i>© 2021 Maximino Rentería Moreno - Río Software <span>SuperMax</span></i>
+      </footer>
+    </div>
+    <script src = "https://cdn.jsdelivr.net/npm/typed.js@2.0.12"> </script>
+    <script src="index.js"></script>
+</body>
+</html>
